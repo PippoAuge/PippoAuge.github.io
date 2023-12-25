@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Why you'd want to meet me
 ---
 
 My name is Nikolai Augustin. I have the following qualities:
