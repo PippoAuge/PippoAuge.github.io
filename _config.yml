@@ -13,19 +13,19 @@
  title: Pippo Auge
 
 # Your name to show in the footer
-author: Nikolai Augustin
+ author: Nikolai Augustin
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
-  About Me: "aboutme"
-  Work: "work"
-  Resources: 
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+ navbar-links:
+   About Me: "aboutme"
+   Work: "work"
+   Resources: 
+     - Beautiful Jekyll: "https://beautifuljekyll.com"
+     - Learn markdown: "https://www.markdowntutorial.com/"
+   Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
