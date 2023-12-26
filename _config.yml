@@ -52,19 +52,6 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-
-
-<footer>
-  <div class="rounded-social-buttons">
-                    <a class="social-button youtube" href="https://www.youtube.com/channel/UCcC2H4m9G6_nEvpNQfGPESQ" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a class="social-button instagram" href="https://www.instagram.com/sudhendra_k/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a class="social-button spotify" href="https://twitter.com/sudhendrakambh3" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/in/sudhendra-kambhamettu-6b991b169/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-button github" href="https://github.com/Sudhendra" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-</footer>
 social-network-links:
 email: someone@example.com
 rss: true  # remove this line if you don't want to show an RSS link at the bottom
