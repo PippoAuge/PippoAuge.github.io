@@ -21,6 +21,7 @@ author: Nikolai Augustin
 
 navbar-links:
   About Me: "aboutme"
+  Work: "work"
   Resources: 
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
