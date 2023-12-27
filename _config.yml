@@ -21,8 +21,7 @@
 
  navbar-links:
    Work: 
-     - Film Music: "filmmusic"
-     - Film Scores: "fimusic"
+     - Film Music: "filmmusic_1"
      - Music Production: "mproduc"
    Awards: "awards"  
    About Me: "aboutme"
