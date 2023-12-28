@@ -3,37 +3,7 @@ layout: page
 title: 'Film Music'
 ---
 
-{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-{%- capture site_tags -%}
-    {%- for tag in site.tags -%}
-        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-{%- endcapture -%}
-{%- assign tags_list = site_tags | split:',' | sort -%}
-
-{%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
-{%- endfor -%}
-
-<div id="full-tags-list">
-{%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.tags[tag] -%}
-            <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
-    </div>
-
-    {%- if tag == 'filmmusic_2' -%}
         <div class="example-section">
             <h3>Example 1: Amargo</h3>
             <p>This is something I did during my USC exchange year</p>
@@ -43,8 +13,7 @@ title: 'Film Music'
         <div class="example-section">
             <h3>Example 2: Another Film Score</h3>
             <p>This is another example description</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fL27QsO6pak" frameborder="0" allowfullscreen></iframe>
         </div>
-    {%- endif -%}
-{%- endfor -%}
-</div>
+
+
