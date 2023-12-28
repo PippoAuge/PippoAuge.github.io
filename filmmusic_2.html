@@ -34,3 +34,19 @@ title: 'Film Music'
     </div>
 {%- endfor -%}
 </div>
+
+  {% if tag == 'Film Music' %}
+        <div class="example-section">
+            <h3>Example 1: Amargo</h3>
+            <p>This is something I did during my USC exchange year</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DyVvS8wZj5Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="example-section">
+            <h3>Example 2: Another Film Score</h3>
+            <p>Description of the example goes here...</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+    {% endif %}
+{%- endfor -%}
+</div>
