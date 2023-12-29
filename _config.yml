@@ -50,95 +50,26 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
+
 # Select the social network links that you want to show in the footer.
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
-
-stylesheets:
-  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-
-footer:
-  container: container-md beautiful-jekyll-footer
-  row:
-    - class: col-xl-8 offset-xl-2 col-lg-10 offset-lg-1
-      ul:
-        class: list-inline text-center footer-links
-        items:
-          - class: list-inline-item
-            link:
-              href: "mailto:pippo.auge@gmail.com"
-              title: "Email me"
-              span:
-                class: "fa-stack fa-lg"
-                aria-hidden: true
-                items:
-                  - class: "fas fa-circle fa-stack-2x"
-                  - class: "fas fa-envelope fa-stack-1x fa-inverse"
-              span-sr-only: "Email me"
-          - class: list-inline-item
-            link:
-              href: "https://open.spotify.com/intl-de/artist/6SfJLiPHy87bfItIz60CKi"
-              title: "Spotify"
-              span:
-                class: "fa-stack fa-lg"
-                aria-hidden: true
-                items:
-                  - class: "fas fa-circle fa-stack-2x"
-                  - class: "fab fa-spotify fa-stack-1x fa-inverse"
-              span-sr-only: "Spotify"
-          - class: list-inline-item
-            link:
-              href: "https://music.apple.com/at/artist/pippo-auge/1480021576"
-              title: "Apple Music"
-              span:
-                class: "fa-stack fa-lg"
-                aria-hidden: true
-                items:
-                  - class: "fas fa-circle fa-stack-2x"
-                  - class: "fab fa-apple fa-stack-1x fa-inverse"
-              span-sr-only: "Apple Music"
-          - class: list-inline-item
-            link:
-              href: "https://www.youtube.com/@lildadipippoauge4817"
-              title: "YouTube"
-              span:
-                class: "fa-stack fa-lg"
-                aria-hidden: true
-                items:
-                  - class: "fas fa-circle fa-stack-2x"
-                  - class: "fab fa-youtube fa-stack-1x fa-inverse"
-              span-sr-only: "YouTube"
-          - class: list-inline-item
-            link:
-              href: "https://www.instagram.com/pippoauge/"
-              title: "Instagram"
-              span:
-                class: "fa-stack fa-lg"
-                aria-hidden: true
-                items:
-                  - class: "fas fa-circle fa-stack-2x"
-                  - class: "fab fa-instagram fa-stack-1x fa-inverse"
-              span-sr-only: "Instagram"
-
- social-network-links:
-   email: someone@example.com
-   facebook: deanattali
-   github: daattali
-   twitter: daattali
-   youtube: "@daattali"
- # facebook: deanattali
- # github: PippoAuge
- # twitter: daattali
- # patreon: DeanAttali
- # youtube: "@daattali"
+social-network-links:
+  email: "pippo.auge@gmail.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname
-# linkedin: daattali
+#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
- #   instagram: @pippoauge
- #   spotify: Pippo Auge
+#  instagram: deanat78
+#  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
