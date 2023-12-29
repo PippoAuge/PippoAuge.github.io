@@ -10,25 +10,21 @@
 ############################
 
 # Name of website
- title: Pippo Auge
+title: My Website
 
 # Your name to show in the footer
- author: Nikolai Augustin
+author: Some Person
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
- navbar-links:
-   Work: 
-     - Film Music: "filmmusic_2"
-     - Music Production: "mproduc"
-     - DJ: "DJ"
-     - Live Performance: "Live"
-   Awards: "awards"  
-   About Me: "aboutme"
-   Contact: "contact"
-     
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -50,12 +46,11 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
-
 # Select the social network links that you want to show in the footer.
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "pippo.auge@gmail.com"
+  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: deanattali
   github: daattali
@@ -95,20 +90,20 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: false
+  twitter: true
   facebook: true
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
+url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: false
+feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
@@ -125,7 +120,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "film music,composer,music producer,music"
+#keywords: "my,list,of,keywords"
 
 ######################################
 # --- Colours / background image --- #
@@ -133,18 +128,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#000000"        # Set to black for the header
-navbar-text-col: "#EAEAEA"   # Text color for the header
-navbar-border-col: "#DDDDDD"  # Border color for the header
-page-col: "#FFFFFF"           # Background color for the page content
-text-col: "#404040"           # Text color for the page content
-link-col: "#008AFF"           # Link color
-hover-col: "#0085A1"          # Hover color for links
-footer-col: "#000000"         # Set to black for the footer
-footer-text-col: "#777777"    # Text color for the footer
-footer-link-col: "#404040"    # Link color in the footer
-footer-hover-col: "#0085A1"    # Hover color for links in the footer
-
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -300,6 +294,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-jekyll build
-
