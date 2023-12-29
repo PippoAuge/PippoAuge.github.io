@@ -10,22 +10,25 @@
 ############################
 
 # Name of website
-title: My Website
+ title: Pippo Auge
 
 # Your name to show in the footer
-author: Some Person
+ author: Nikolai Augustin
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
+   Work: 
+     - Film Music: "filmmusic_2"
+     - Music Production: "mproduc"
+     - DJ: "DJ"
+     - Live Performance: "Live"
+   Awards: "awards"  
+   About Me: "aboutme"
+   Contact: "contact"
+   
 ################
 # --- Logo --- #
 ################
@@ -50,20 +53,20 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
+  email: "pippo.auge@gmail.com"
+#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  facebook: deanattali
+#  github: daattali
+#  twitter: daattali
+#  patreon: DeanAttali
+  youtube: "PippoAuge"
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: pippoauge
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -120,7 +123,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+#keywords: "film,movie,music,composer"
 
 ######################################
 # --- Colours / background image --- #
