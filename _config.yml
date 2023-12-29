@@ -89,6 +89,24 @@ social-network-links:
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
+# Additional footer links
+footer-links:
+  - title: "Email"
+    url: "mailto:pippo.auge@gmail.com"
+    icon: "envelope"
+  - title: "Spotify"
+    url: "https://open.spotify.com/intl-de/artist/6SfJLiPHy87bfItIz60CKi"
+    icon: "spotify"
+  - title: "Apple Music"
+    url: "https://music.apple.com/at/artist/pippo-auge/1480021576"
+    icon: "apple"
+  - title: "YouTube"
+    url: "https://www.youtube.com/@lildadipippoauge4817"
+    icon: "youtube"
+  - title: "Instagram"
+    url: "https://www.instagram.com/pippoauge/"
+    icon: "instagram"
+
 ###########################
 # --- General options --- #
 ###########################
