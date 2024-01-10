@@ -1,1 +1,51 @@
 Here is my mail: pippo.auge@gmail.com
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+<ul class="list-inline text-center footer-links"><li class="list-inline-item">
+  <li class="list-inline-item">
+    <a href="mailto:pippo.auge@gmail.com" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li> <li class="list-inline-item">
+    <a href="https://open.spotify.com/intl-de/artist/6SfJLiPHy87bfItIz60CKi" title="Spotify">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Spotify</span>
+   </a>
+  </li><li class="list-inline-item">
+  <a href="https://music.apple.com/at/artist/pippo-auge/1480021576" title="Apple Music">
+    <span class="fa-stack fa-lg" aria-hidden="true">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-apple fa-stack-1x fa-inverse" ></i>
+    </span>
+    <span class="sr-only">Apple Music</span>
+  </a>
+</li><li class="list-inline-item">
+    <a href="https://www.youtube.com/@lildadipippoauge4817" title="YouTube">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">YouTube</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.instagram.com/pippoauge/" title="Instagram">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Instagram</span>
+    </a>
+  </li></ul>
+
