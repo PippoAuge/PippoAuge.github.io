@@ -153,7 +153,7 @@ img {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   font-size: 1.125rem;
-  color: #B8860B; /* Dark Golden color code */
+  color: #FFD700; /*  Golden color code */
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -389,7 +389,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  color: #B8860B; /* Dark Golden color code */
+  color: #FFD700; /* Dark Golden color code */
   background-color: {{ site.footer-col | default: "#000000" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
