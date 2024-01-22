@@ -46,21 +46,30 @@ body {
   .example-section a {
     color: white;
   }
-
+  .external-link::after {
+      content: '\00a0 \f054'; /* Unicode for right arrow icon (Font Awesome) */
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      color: blue; /* Change the color of the arrow */
+    }
 
 }
 </style>
 
 
 
-<div class="example-section">
+<body>
+  <div class="example-section">
     <h3>NEWS</h3>
-    <p><a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=316138.html">Heureux Gagnants</a> with <a href="https://www.instagram.com/audreylamy/">Audrey Lamy</a> and <a href="https://www.instagram.com/ebouefabrice/">Fabrice Eboué</a> will be in movie theatres on March 13, 2024. I am credited as assistant composer.</p>
+    <p><a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=316138.html">Heureux Gagnants</a> with <a href="https://www.instagram.com/audreylamy/" class="external-link">Audrey Lamy</a> and <a href="https://www.instagram.com/ebouefabrice/" class="external-link">Fabrice Eboué</a> will be in movie theaters on March 13, 2024. I am credited as assistant composer.</p>
 
     <h3>My approach</h3>
-    <p>I'm passionate about individualistic, innovative and  creative approaches to music compmosition, especially for movies, commercials or documentaries. If you like my work, don't hesitate to hit me up:)</p>
-        <p>Also, always down for Music Production or DJing...  </p><img src="assets/JB.jpeg" alt="Film Music" style="max-width: 100%;" height="auto">
-</div>
+    <p>I'm passionate about individualistic, innovative, and creative approaches to music composition, especially for movies, commercials, or documentaries. If you like my work, don't hesitate to hit me up:)</p>
+    <p>Also, always down for Music Production or DJing...</p>
+    <img src="assets/JB.jpeg" alt="Film Music" style="max-width: 100%;" height="auto">
+  </div>
+</body>
+
 
 
 
